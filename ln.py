@@ -42,6 +42,3 @@ def sendText(user, text):
 
 if __name__ == '__main__':
      app.run(debug=True)
-
-# any problem goes here!
-#https://developers.line.me/messaging-api/getting-started#apply_messagingapi
