@@ -22,8 +22,9 @@ def callback():
  
 def sendText(user, text):
     LINE_API = 'https://api.line.me/v2/bot/message/reply'
-    #Authorization: Bearer <ACCESS TOKEN>
-    Authorization = 'Bearer ' + os.environ['LINE_KEY']
+    #Authorization: Bearer {ENTER_ACCESS_TOKEN}
+    #Authorization = 'Bearer ' + os.environ['LINE_KEY']
+    Authorization = 'Bearer {' + os.environ['LINE_KEY'] + '}'
     #Authorization = os.environ['LINE_KEY'] # ใส่ ENTER_ACCESS_TOKEN เข้าไป
  
     headers = {
