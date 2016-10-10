@@ -25,7 +25,7 @@ def sendText(user, text):
     #Authorization: Bearer {ENTER_ACCESS_TOKEN}
     #Authorization = 'Bearer ' + os.environ['LINE_KEY']
     #Authorization = 'Bearer {' + os.environ['LINE_KEY'] + '}'
-    Authorization = 'Bearer ' + os.environ['LINE_KEY']
+    Authorization = 'Bearer v7BxGYGVBkEVL2osXKhaunKD+IvoCSeFvceuiOVIOqP2Shq8y+1qXLIUg340Iga+hfnFxGl0KbQLI4ev+PmOOIZrjNo6PbM8PN0z5DxFAhOcptCB8ts8c7mJ9HMoE2P8mbjAS1W3ZqilO7sKCn3rjwdB04t89/1O/w1cDnyilFU='
     #Authorization = os.environ['LINE_KEY'] # ใส่ ENTER_ACCESS_TOKEN เข้าไป
  
     headers = {
